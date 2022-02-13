@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&family=Poppins:wght@300&family=Roboto:wght@300;700;900&display=swap');
+*{
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    min-height: 100vh;
+}
+
+button {
+    background-image: linear-gradient(to right, #015ad1, #1748bc);
+    border-radius: 50px;
+    border: 0;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
+    color: #fff;
+    cursor: pointer;
+    padding: 10px 25px;
+    transition: all 0.1s ease-in-out;
+}
+
+button:active {
+    opacity: 0.8;
+}
+
+button:focus {
+    outline: none;
+    box-shadow: 0 0 1px 2px #015ad1;
+}
