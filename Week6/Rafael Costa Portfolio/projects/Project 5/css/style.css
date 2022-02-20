@@ -1,0 +1,27 @@
+/*This is my exernal css*/
+/*Universal selector */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+h2{
+    font-style: italic;
+    color: darkolivegreen;
+}
+
+.container{
+border-style: groove;
+}
+
+#redbox{
+    border-style: double;
+}
+
+.header a{
+
+    color: rgb(209, 28, 28);
+}
+
+
